@@ -44,14 +44,8 @@
         // print_r($potato);
         // echo $potato->show_price();
 
-
         // 25行目で既にechoしているため
-      ?>
-     </p>
-     
-     <p>
-      <?php
-        // クラスの定義（例：class Product { …… }）
+        
         class Animal {
             // プロパティの定義（例：public $name;）
             private $name;
@@ -87,17 +81,20 @@
         // メソッドを定義したものを呼び出している
         // print_r($potato);
         // echo $potato->show_price();
-
+        
         print_r($potato);
-        $potato->show_price();
+        echo '<br>';
         print_r($dog);
+        echo '<br>';
+        
+        $potato->show_price();
+        // echo '<br>';
         $dog->show_height();
+        // echo '<br>';
         // 25行目で既にechoしているため
       ?>
-      
      </p>
  </body>
- 
  </html>
  
  <!--2024年2月18日（日）いまここ-->
